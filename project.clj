@@ -11,4 +11,8 @@
                  [net.cgrand/xforms "0.9.3"]
                  [cheshire "5.7.1"]
                  [com.taoensso/timbre "4.10.0"]
-                 [gorilla-renderable "2.0.0"]])
+                 [gorilla-renderable "2.0.0"]
+                 [gorilla-repl "0.4.0" :exclusions [ring/ring-json compojure]]
+                 [ring/ring-json "0.4.0"]
+                 [compojure "1.6.0"]]
+  :plugins [[lein-gorilla "0.4.0"]])
